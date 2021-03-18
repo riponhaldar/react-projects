@@ -1,11 +1,11 @@
 import React from 'react'
-import './App.css'
-import MainT from './component/2-tours/MainT'
 
+import './App.css'
+import Main from './3-accordin/Main'
 function App() {
   return (
     <div className='App'>
-      <MainT />
+      <Main />
     </div>
   )
 }

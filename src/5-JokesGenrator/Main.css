@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  align-items: center;
+  min-width: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  color: #000;
+  padding: 2rem;
+  border-radius: 18px;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+.box h2 {
+  font-size: 2rem;
+}
+.box p {
+  padding: 20px;
+}
+button {
+  background-color: rgb(19, 0, 83);
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}

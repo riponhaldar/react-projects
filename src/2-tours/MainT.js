@@ -40,6 +40,7 @@ function MainT() {
       </main>
     )
   }
+
   // this is no more
   if (tours.length === 0) {
     return (
@@ -47,7 +48,6 @@ function MainT() {
         <div className='title'>
           <h2>no tours left</h2>
           <button className='btn' onClick={fetchTours}>
-            {' '}
             Refress
           </button>
         </div>
